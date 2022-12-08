@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+ 
+.BgGuessimg{
+    height: 30vh;
+    background-size: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.gameDescription{
+    text-align: center;
+    font-family: "roboto";
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.guessHeading{
+    text-align: center;
+    color: black;
+    padding: 30px;
+}
+.guessnumImg{
+    width: 8%;
+    height: 60px;
+
+}
+.GuessBG{
+    background-color: rgb(152, 146, 234);
+    height: 62vh;
+    padding: 40 px;
+}
+.inputButton{
+    display: block;
+    margin:auto;
+    border: none;
+    font-family: "Roboto";
+    font-size: 30px;
+    text-align: center;
+    height: 40px;
+    width: 280px;
+ 
+}
+.CheckButton{
+    font-size: 20px;
+    font-family: "roboto";
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    width: 100px;
+    color: white;
+    background-color: rgba(18, 155, 209, 0.911);
+}
+.CheckButtonPadding{
+    padding: 20px;
+}
+.game-result {
+    font-family: "Roboto";
+    font-weight: 50;
+    font-size: 24px;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    
+    
+   
+
+
+
+
+
+
+
