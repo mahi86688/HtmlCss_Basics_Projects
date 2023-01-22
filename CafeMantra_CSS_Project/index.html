@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Mahesh Kumar">
+    <meta name="description" content="Official wensite for Cafe Mantra">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cafe Mantra will make your day</title>
+    <link rel="icon" href="img/logoicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>  <!-- defere tells the script to wait untill everything is loaded before the js -->
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__h1">The Cafe Mantra</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                </li>
+                <li>
+                    <a href="#menu" >Menu</a>
+                </li>
+                <li>
+                    <a href="hours.html" >Hours</a>
+                </li>
+                <li>
+                    <a href="contact.html" >Contact</a>
+                </li>
+                <li>
+                    <a href="about.html" >About </a>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2 class="hero__h2">Namaskar!</h2>
+        <figure>
+            <img src="img/cafepic (1).png" alt="Coffee and Snacks" title="I'm loving Cafe Mantra" width=1000" height="667">
+            <figcaption class="offscreen">
+                Drinks and Snacks
+            </figcaption>
+        </figure>
+    </section>
+    <Main class="main">
+        <article id="menu" class="main__article menu">
+            <h2 class="menu__h2">Menu</h2>
+            <table class="menu__container">
+                <caption class="offscreen"><strong>Cafe Mantra will make your day🤗</strong></caption>
+                <thead>
+                    <tr>
+                        <th class="menu__thheader" scope="col">Items</th>
+                        <th class="menu__thheader" scope="col">Quantity</th>
+                        <th class="menu__thheader" scope="col">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="menu__tditem menu__cc" scope="row" rowspan="2">Choco Coffee</th>
+                        <td class="menu__tditem">1</td>
+                        <td class="menu__tditem">₹20</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__tditem">2</td>
+                        <td class="menu__tditem">₹40</td>
+                    </tr>
+                    <tr>
+                        <th class="menu__tditem menu__dt" scope="row" rowspan="2">Dum Tea</th>
+                        <td class="menu__tditem">1</td>
+                        <td class="menu__tditem">₹10</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__tditem">2</td>
+                        <td class="menu__tditem">₹20</td>
+                    </tr>
+                    <tr>
+                        <th class="menu__tditem menu__cm" scope="row" rowspan="2">Chicken Momes</th>
+                        <td class="menu__tditem">1</td>
+                        <td class="menu__tditem">₹150</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__tditem">2</td>
+                        <td class="menu__tditem">₹300</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td class="menu__tditem menu__sm" colspan="3">
+                            Special MilkShake ₹50
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+            <p class="center">
+                <a href="#">Back to Top</a>
+            </p>
+        </article>
+    </Main>
+    <hr>
+    <footer class="footer">
+        <p>
+           <span class="nowrap">Copyright &copy; <time id="year"></time> </span> 
+           <span class="nowrap">The Cafe Mantra</span>
+        </p>
+    </footer>
+</body>
+</html>
+
